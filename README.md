@@ -11,7 +11,7 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 We want to calculate the PAM1 matrix based on the following two sequence alignments of the DNA sequences a, b, c and d.
 
 <p align="center">
-  <img src="./figures/sheet8-exercise1-sequences.svg" alt="sequences" width=100%/>
+  <img src="./figures/sheet8-exercise1-sequences.svg" alt="sequences" width=70%/>
 </p>
 
 
@@ -19,6 +19,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Example: (Spoiler)</summary>
   a' = a + c + b + d
+  
   b' = b + d + a + c
 
   The order does not matter, as the frequency identification is position-insensitive.
@@ -28,7 +29,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-r.svg" alt="r" width=100%/>
+    <img src="./figures/sheet8-exercise1-r.svg" alt="r" width=20%/>
   </p>
 
 </details>
@@ -38,7 +39,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-E.svg" alt="E" width=100%/>
+    <img src="./figures/sheet8-exercise1-E.svg" alt="E" width=40%/>
   </p>
 
 </details>
@@ -48,7 +49,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-S.svg" alt="S" width=100%/>
+    <img src="./figures/sheet8-exercise1-S.svg" alt="S" width=35%/>
   </p>
 
 </details>
@@ -60,7 +61,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-gamma.svg" alt="Gamma" width=100%/>
+    <img src="./figures/sheet8-exercise1-gamma.svg" alt="Gamma" width=50%/>
   </p>
 
 </details>
@@ -70,7 +71,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-P.svg" alt="P" width=100%/>
+    <img src="./figures/sheet8-exercise1-P.svg" alt="P" width=15%/>
   </p>
 
 </details>
@@ -80,7 +81,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-N.svg" alt="N" width=100%/>
+    <img src="./figures/sheet8-exercise1-N.svg" alt="N" width=25%/>
   </p>
 
 </details>
