@@ -1,0 +1,14 @@
+{
+"tests": [
+    {
+      "name": "Exercise 1 - PAM: item a",
+      "setup": "sudo -H pip3 install pytest --quiet",
+      "run": "pytest -s ./tests/test_exercise_sheet8.py -k '1a' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
