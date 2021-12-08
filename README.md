@@ -24,7 +24,9 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
   The order does not matter, as the frequency identification is position-insensitive.
 </details>
 
-**a)** Calculate the nucleotide frequencies r<sub>x</sub>. (round all results to 2 decimal places)
+Unless otherwise stated round all results to 4 decimal places.
+
+**a)** Calculate the nucleotide frequencies r<sub>x</sub>.
 <details>
   <summary>Formula: (Spoiler)</summary>
   <p align="center">
@@ -33,7 +35,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 
 </details>
 
-**b)** Calculate the symmetric mutation probability matrix E(x,y). (round all entries to 3 decimal places)
+**b)** Calculate the symmetric mutation probability matrix E(x,y).
 
 <details>
   <summary>Formula: (Spoiler)</summary>
@@ -65,7 +67,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 
 </details>
 
-**f)** Calculate the mutation rate matrix P. (round all entries to 3 decimal places)
+**f)** Calculate the mutation rate matrix P.
 
 <details>
   <summary>Formula: (Spoiler)</summary>
@@ -75,7 +77,7 @@ Tip: In order to solve **a)** and **b)** create a combined alignment comprised o
 
 </details>
 
-**g)** Calculate the normalized mutation rate matrix N using P and factor γ. (round all entries to 4 decimal places)
+**g)** Calculate the normalized mutation rate matrix N using P and factor γ.
 
 <details>
   <summary>Formula: (Spoiler)</summary>

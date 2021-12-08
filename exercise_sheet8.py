@@ -10,10 +10,10 @@ def exercise_1a():
     Calculate the nucleotide frequencies r_x. (round all results to 2 decimal places)
     """
 
-    r_A = 0.00
-    r_C = 0.00
-    r_T = 0.00
-    r_G = 0.00
+    r_A = 0.0000
+    r_C = 0.0000
+    r_T = 0.0000
+    r_G = 0.0000
 
     return r_A, r_C, r_T, r_G
 
@@ -25,11 +25,11 @@ def exercise_1b():
     Calculate the symmetric mutation probability matrix E(x,y). (round all entries to 3 decimal places)
     """
 
-    E = [#A     #C     #T     #G
-        [0.000, 0.000, 0.000, 0.000], #A
-        ["-",   0.000, 0.000, 0.000], #C
-        ["-",   "-",   0.000, 0.000], #T
-        ["-",   "-",   "-",   0.000]  #G
+    E = [#A       #C       #T       #G
+        [0.0000,  0.0000,  0.0000,  0.0000], #A
+        [   "-",  0.0000,  0.0000,  0.0000], #C
+        [   "-",     "-",  0.0000,  0.0000], #T
+        [   "-",     "-",     "-",  0.0000]  #G
     ]
 
     return E
@@ -42,11 +42,11 @@ def exercise_1c():
     using the previously determined r values and E matrix. (round to integers)
     """
 
-    S = [ #A   #C    #T   #G
-        [  0,   0,    0,   0], #A
-        ["-",   0,    0,   0], #C
-        ["-",  "-",   0,   0], #T
-        ["-",  "-",  "-",  0]  #G
+    S = [ #A    #C    #T   #G
+        [  0,    0,    0,   0], #A
+        ["-",    0,    0,   0], #C
+        ["-",  "-",    0,   0], #T
+        ["-",  "-",  "-",   0]  #G
     ]
 
     return S
@@ -79,11 +79,11 @@ def exercise_1f():
     (round all entries to 3 decimal places)
     """
 
-    P = [  #A      #C      #T      #G
-        [  0.000,  0.000,  0.000,  0.000], #A
-        [  0.000,  0.000,  0.000,  0.000], #C
-        [  0.000,  0.000,  0.000,  0.000], #T
-        [  0.000,  0.000,  0.000,  0.000]  #G
+    P = [  #A       #C       #T       #G
+        [  0.0000,  0.0000,  0.0000,  0.0000], #A
+        [  0.0000,  0.0000,  0.0000,  0.0000], #C
+        [  0.0000,  0.0000,  0.0000,  0.0000], #T
+        [  0.0000,  0.0000,  0.0000,  0.0000]  #G
     ]
 
     return P
