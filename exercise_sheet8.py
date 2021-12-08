@@ -7,7 +7,7 @@ def exercise_1a():
     """
     Exercise 1 a
 
-    Calculate the nucleotide frequencies r_x. (round all results to 2 decimal places)
+    Calculate the nucleotide frequencies r_x.
     """
 
     r_A = 0.0000
@@ -22,7 +22,7 @@ def exercise_1b():
     """
     Exercise 1 b
 
-    Calculate the symmetric mutation probability matrix E(x,y). (round all entries to 3 decimal places)
+    Calculate the symmetric mutation probability matrix E(x,y).
     """
 
     E = [#A       #C       #T       #G
@@ -76,7 +76,6 @@ def exercise_1f():
     Exercise 1 f
 
     Calculate the mutation rate matrix P.
-    (round all entries to 3 decimal places)
     """
 
     P = [  #A       #C       #T       #G
@@ -93,7 +92,6 @@ def exercise_1g():
     Exercise 1 g
 
     Calculate the normalized mutation rate matrix N using P and factor γ.
-    (round all entries to 4 decimal places)
     """
 
     N = [  #A       #C       #T       #G
@@ -103,6 +101,46 @@ def exercise_1g():
         [  0.0000,  0.0000,  0.0000,  0.0000]  #G
     ]
     return N
+
+
+def exercise_1h():
+    """
+    Exercise 1 h
+
+    Determine PAM1 based on the normalized mutation rate matrix N with 10*log_10(odds)
+    (round to integer)
+    """
+
+    PAM1 = [ #A    #C    #T   #G
+           [  0,    0,    0,   0], #A
+           ["-",    0,    0,   0], #C
+           ["-",  "-",    0,   0], #T
+           ["-",  "-",  "-",   0]  #G
+    ]
+    return PAM1
+
+def exercise_1i():
+    """
+    Exercise 1 i
+
+    Determine PAM2 and PAM250.
+    (round to integer)
+    """
+
+    PAM2 = [ #A    #C    #T   #G
+           [  0,    0,    0,   0], #A
+           ["-",    0,    0,   0], #C
+           ["-",  "-",    0,   0], #T
+           ["-",  "-",  "-",   0]  #G
+    ]
+
+    PAM250 = [ #A    #C    #T   #G
+             [  0,    0,    0,   0], #A
+             ["-",    0,    0,   0], #C
+             ["-",  "-",    0,   0], #T
+             ["-",  "-",  "-",   0]  #G
+    ]
+    return PAM2, PAM250
 
 ########################################################
 ############## Programming tasks #######################
