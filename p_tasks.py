@@ -1,3 +1,5 @@
+from math import log10
+
 def helper_index(char):
     return "ACTG".index(char)
 
@@ -23,8 +25,20 @@ def mutation_calculation_correct(sim_align):
         freq_matrix[index1][index2] += 1
 
     sum_freq = sum([x for row in freq_matrix for x in row])
-    freq_matrix = [[x / sum_freq] for row in freq_matrix for x in row]
+    freq_matrix = [[x / sum_freq for x in row] for row in freq_matrix]
     return freq_matrix
+
+
+def scores_calculation_correct(sim_align):
+    freq_nuc = nucleotide_freq_calculation_correct(sim_align)
+    freq_matrix = mutation_calculation_correct(sim_align)
+
+    scores_matrix = [[freq_matrix[row_index][column_index] / (freq_nuc[row_index] * freq_nuc[column_index])
+                     for column_index, column in enumerate(row)]
+                     for row_index, row in enumerate(freq_matrix)]
+
+    scores_matrix = [[round(10 * log10(x)) for x in row] for row in scores_matrix]
+    return scores_matrix
 
 
 def main():
@@ -35,6 +49,7 @@ def main():
 
     print(nucleotide_freq_calculation_correct(sim_align))
     print(mutation_calculation_correct(sim_align))
+    print(scores_calculation_correct(sim_align))
 
 
 if __name__ == "__main__":
