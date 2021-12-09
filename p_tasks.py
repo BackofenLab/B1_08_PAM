@@ -67,7 +67,7 @@ def probabilities_calculation_correct(sim_align):
 def norm_probabilities_calculation_correct(sim_align):
     probability_matrix = probabilities_calculation_correct(sim_align)
     freq_mutations = mutation_calculation_correct(sim_align)
-    gamma = gamma_calculation_correct(freq_mutations)
+    gamma = gamma_calculation_correct(sim_align)
 
     probability_matrix = [[probability_matrix[row_index][column_index] * gamma
                            for column_index, column in enumerate(row)]
