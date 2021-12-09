@@ -41,6 +41,15 @@ def scores_calculation_correct(sim_align):
     return scores_matrix
 
 
+def calculate_gamma(freq_mutations_matrix):
+    sum_non_diagonal = sum([column for row_index, row in enumerate(freq_mutations_matrix)
+                            for column_index, column in enumerate(row)
+                            if row_index != column_index])
+    gamma = 0.01 / sum_non_diagonal
+
+    return gamma
+
+
 def main():
     seq1 = "AAGTACTTTAGGTAACACGTTTAGTCAAAATTCCTAAGTTTACCGGGTTAATCA"
     seq2 = "AAATTCCTAAGTTTACCGGGTTAATCAAAGTACTTTAGGTAACACGTTTAGTCA"
@@ -50,6 +59,9 @@ def main():
     print(nucleotide_freq_calculation_correct(sim_align))
     print(mutation_calculation_correct(sim_align))
     print(scores_calculation_correct(sim_align))
+
+    m_matrix = mutation_calculation_correct(sim_align)
+    print(calculate_gamma(m_matrix))
 
 
 if __name__ == "__main__":
