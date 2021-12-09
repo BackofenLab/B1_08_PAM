@@ -34,7 +34,7 @@ def scores_calculation_correct(sim_align):
     freq_matrix = mutation_calculation_correct(sim_align)
 
     scores_matrix = [[freq_matrix[row_index][column_index] / (freq_nuc[row_index] * freq_nuc[column_index])
-                     for column_index, column in enumerate(row)]
+                      for column_index, column in enumerate(row)]
                      for row_index, row in enumerate(freq_matrix)]
 
     scores_matrix = [[round(10 * log10(x)) for x in row] for row in scores_matrix]
@@ -50,6 +50,36 @@ def calculate_gamma(freq_mutations_matrix):
     return gamma
 
 
+def calculate_probabilities_correct(sim_align):
+    freq_nuc = nucleotide_freq_calculation_correct(sim_align)
+    freq_matrix = mutation_calculation_correct(sim_align)
+
+    probability_matrix = [[freq_matrix[row_index][column_index] / (freq_nuc[row_index])
+                           for column_index, column in enumerate(row)]
+                          for row_index, row in enumerate(freq_matrix)]
+
+    return probability_matrix
+
+
+def calculate_norm_probabilities_correct(sim_align):
+    probability_matrix = calculate_probabilities_correct(sim_align)
+    freq_mutations = mutation_calculation_correct(sim_align)
+    gamma = calculate_gamma(freq_mutations)
+
+    probability_matrix = [[probability_matrix[row_index][column_index] * gamma
+                           for column_index, column in enumerate(row)]
+                          for row_index, row in enumerate(probability_matrix)]
+
+    sum_non_diagonal = [sum([column for column_index, column in enumerate(row)
+                             if row_index != column_index])
+                        for row_index, row in enumerate(probability_matrix)]
+
+    for index, _ in enumerate(probability_matrix):
+        probability_matrix[index][index] = 1 - sum_non_diagonal[index]
+
+    return probability_matrix
+
+
 def main():
     seq1 = "AAGTACTTTAGGTAACACGTTTAGTCAAAATTCCTAAGTTTACCGGGTTAATCA"
     seq2 = "AAATTCCTAAGTTTACCGGGTTAATCAAAGTACTTTAGGTAACACGTTTAGTCA"
@@ -62,6 +92,9 @@ def main():
 
     m_matrix = mutation_calculation_correct(sim_align)
     print(calculate_gamma(m_matrix))
+
+    print(calculate_probabilities_correct(sim_align))
+    print(calculate_norm_probabilities_correct(sim_align))
 
 
 if __name__ == "__main__":
