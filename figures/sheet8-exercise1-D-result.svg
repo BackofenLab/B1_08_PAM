@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -8,15 +6,11 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   id="svg2"
-   width="2014.6667"
-   height="601.33331"
    viewBox="0 0 2014.6667 601.33331"
-   sodipodi:docname="sheet8-exercise1-D-result.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   height="601.33331"
+   width="2014.6667"
+   id="svg2"
+   version="1.1">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -31,31 +25,10 @@
   </metadata>
   <defs
      id="defs6" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="756"
-     inkscape:window-height="480"
-     id="namedview4"
-     showgrid="false"
-     inkscape:zoom="0.1687624"
-     inkscape:cx="1007.3334"
-     inkscape:cy="300.66666"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
   <image
-     width="2014.6667"
-     height="601.33331"
-     preserveAspectRatio="none"
-     style="image-rendering:optimizeQuality"
+     y="0"
+     x="0"
+     id="image10"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABecAAAHDCAYAAACu6aH2AAAR6npUWHRSYXcgcHJvZmlsZSB0eXBl
 IGV4aWYAAHjarZlZkiQ5ckT//RQ8AnaDHQerCG8wx+dTj6ite0jOiExlV2V2pIc7YKamC+I5//jv
 +/wXf0oO7SnVevPWAn+KF0+DH3r4/PH33xjK++/751io31f/eP1Z+ftj4nvme/78wsbnexy8Xn+9
@@ -742,7 +715,8 @@ K/gfvfc6z9MigKht26r3bhEA4O4AcHcAvHmMMYY1AAAAAABAjmdtAAAAAAAgTJwHAAAAAIAwcR4A
 AAAAAMLEeQAAAAAACBPnAQAAAAAgTJwHAAAAAIAwcR4AAAAAAMJe/WZZutz8x+wAAAAASUVORK5C
 YII=
 "
-     id="image10"
-     x="0"
-     y="0" />
+     style="image-rendering:optimizeQuality"
+     preserveAspectRatio="none"
+     height="601.33331"
+     width="2014.6667" />
 </svg>
