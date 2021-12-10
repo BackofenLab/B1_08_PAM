@@ -53,11 +53,22 @@ def exercise_1d():
     """
     Exercise 1 d
 
-    PAM2
+    Given the sequences a = ACC and b = ATT, compute the optimal Needleman-Wunsch alignments using:
+    1. The general similarity function.
+    2. The PAM1-based similarity scoring function.
+    
+    Set the correct answers to True and the wrong answers to False
     """
 
+    A = None
 
-    return None
+    B = None
+
+    C = None
+
+    D = None
+
+    return A, B, C, D
 
 
 def exercise_1e():

@@ -67,8 +67,12 @@ def test_exercise_1c():
     assert (S == S_expected) or (S == S_alt)
 
 def test_exercise_1d():
-    result = exercise_1d()
+    A, B, C, D = exercise_1d()
 
+    assert A is False
+    assert B is True
+    assert C is False
+    assert D is False
 
 def test_exercise_1e():
     gamma = exercise_1e()

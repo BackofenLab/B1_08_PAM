@@ -56,8 +56,28 @@ Unless otherwise stated round all results to 4 decimal places.
 
 </details>
 
-**d)**
+**d)** Given the sequences _a_ = ACC and _b_ = ATT, compute the optimal Needleman-Wunsch alignments using:
 
+1. The general similarity scoring function.
+
+<p align="center">
+    <img src="./figures/sheet8-exercise1-D-general.svg" alt="General" width=90%/>
+  </p>
+    
+2. The PAM1-based similarity scoring function.
+
+<p align="center">
+    <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=90%/>
+</p>
+
+where _s_<sub>x,y</sub> are entries from the non-normalized PAM matrix S from above.
+
+Select the correct answer based on the obtained results.
+
+<p align="center">
+    <img src="./figures/sheet8-exercise1-D-result.svg" alt="Results" width=100%/>
+</p>
+    
 **e)** Calculate the normalization factor γ based on E.
 
 <details>
@@ -107,3 +127,24 @@ Unless otherwise stated round all results to 4 decimal places.
   </p>
 
 </details>
+
+### _Exercise 2 - Programming assignmnet: Substitution Scoring Models_
+
+**a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the followin way:
+
+- [0] = A
+- [1] = C
+- [2] = T
+- [3] = G
+
+**b)** Implement the calculation of the mutations. Remember indexing as in the previous exercise.
+
+**c)** Implement the calculation of the scores. Remember indexing as in the previous exercise.
+
+**d)** Implement the calculation of gamma.
+
+**e)** Implement the calculation of probabilities matrix.
+
+**f)** Implement the calculation of normalized probabilities matrix.
+
+**g)** Implement the calculation of the PAM matrix. Make sure to round values to integers.
