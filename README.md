@@ -61,13 +61,13 @@ Unless otherwise stated round all results to 4 decimal places.
 1. The general similarity scoring function.
 
 <p align="center">
-    <img src="./figures/sheet8-exercise1-D-general.svg" alt="General" width=100%/>
+    <img src="./figures/sheet8-exercise1-D-general.svg" alt="General" width=90%/>
   </p>
     
 2. The PAM1-based similarity scoring function.
 
 <p align="center">
-    <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=100%/>
+    <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=90%/>
   </p>
 
 where _s_<sub>x,y</sub> are entries from the non-normalized PAM matrix S from above.
