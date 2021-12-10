@@ -170,7 +170,7 @@ def mutation_calculation(sym_align: Tuple[str, str]) -> List[List[float]]:
     return freq_matrix
 
 
-def scores_calculation(sym_align: Tuple[str, str]) -> List[List[float]]:
+def scores_calculation(sym_align: Tuple[str, str]) -> List[List[int]]:
     """
     Implement the calculation of the scores remember indexing in any
     dimension should be done in order:
@@ -203,6 +203,6 @@ def norm_probabilities_calculation(sym_align: Tuple[str, str]) -> List[List[floa
     return norm_matrix
 
 
-def pam_calculation(sym_align: Tuple[str, str], power: int) -> List[List[float]]:
+def pam_calculation(sym_align: Tuple[str, str], power: int) -> List[List[int]]:
     pam = None
     return pam
