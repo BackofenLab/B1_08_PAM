@@ -1,5 +1,5 @@
 from typing import runtime_checkable, Tuple, List
-
+import numpy as np
 
 def exercise_1a():
     """
@@ -194,15 +194,29 @@ def gamma_calculation(sym_align: Tuple[str, str]) -> float:
 
 
 def probabilities_calculation(sym_align: Tuple[str, str]) -> List[List[float]]:
+    """
+    Implement the calculation of probabilities matrix.
+    Hint: You can use your already implemented functions here
+    """
     probability_matrix = None
     return probability_matrix
 
 
 def norm_probabilities_calculation(sym_align: Tuple[str, str]) -> List[List[float]]:
+    """
+    Implement the calculation of normalized probabilities matrix.
+    Hint: You can use your already implemented functions here
+    """
     norm_matrix = None
     return norm_matrix
 
 
 def pam_calculation(sym_align: Tuple[str, str], power: int) -> List[List[int]]:
+    """
+    Implement the calculation of pam matrix Make sure to round values to
+    integers. ( Notice that casting to int does not do the correct
+    rounding)
+    Hint: You can use your already implemented functions here
+    """
     pam = None
     return pam
