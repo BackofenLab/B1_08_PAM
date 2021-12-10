@@ -127,3 +127,24 @@ Select the correct answer based on the obtained results.
   </p>
 
 </details>
+
+### _Exercise 2 - Programming assignmnet: Substitution Scoring Models
+
+**a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the followin way:
+
+- [0] = A
+- [1] = C
+- [2] = T
+- [3] = G
+
+**b)** Implement the calculation of the mutations. Remember indexing as in the previous exercise.
+
+**c)** Implement the calculation of the scores. Remember indexing as in the previous exercise.
+
+**d)** Implement the calculation of gamma.
+
+**e)** Implement the calculation of probabilities matrix.
+
+**f)** Implement the calculation of normalized probabilities matrix.
+
+**g)** Implement the calculation of the PAM matrix. Make sure to round values to integers.
