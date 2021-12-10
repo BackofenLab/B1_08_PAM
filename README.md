@@ -83,7 +83,7 @@ Unless otherwise stated round all results to 4 decimal places.
 <details>
   <summary>Formula: (Click to open)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-N.svg" alt="N" width=25%/>
+    <img src="./figures/sheet8-exercise1-pprime.svg" alt="pprime" width=25%/>
   </p>
 
 </details>
@@ -93,7 +93,7 @@ Unless otherwise stated round all results to 4 decimal places.
 <details>
   <summary>Formula: (Click to open)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-PAM1.svg" alt="PAM1" width=25%/>
+    <img src="./figures/sheet8-exercise1-PAM1.svg" alt="PAM1" width=35%/>
   </p>
 
 </details>
@@ -103,9 +103,7 @@ Unless otherwise stated round all results to 4 decimal places.
 <details>
   <summary>Formula: (Click to open)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-PAMX.svg" alt="PAMX" width=25%/>
+    <img src="./figures/sheet8-exercise1-PAMX.svg" alt="PAMX" width=40%/>
   </p>
 
 </details>
-
-**j)**
