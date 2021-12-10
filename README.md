@@ -68,18 +68,18 @@ Unless otherwise stated round all results to 4 decimal places.
 
 <p align="center">
     <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=90%/>
-  </p>
+</p>
 
 where _s_<sub>x,y</sub> are entries from the non-normalized PAM matrix S from above.
 
 Select the correct answer based on the obtained results.
 
-
-
+<p align="center">
+    <img src="./figures/sheet8-exercise1-D-result.svg" alt="Results" width=90%/>
+</p>
+    
 **e)** Calculate the normalization factor γ based on E.
 
-
-    
 <details>
   <summary>Formula: (Click to open)</summary>
   <p align="center">
