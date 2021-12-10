@@ -1,5 +1,5 @@
 import pytest
-
+import numpy as np
 from exercise_sheet8 import *
 from p_tasks import *
 
@@ -228,7 +228,7 @@ def test_exercise_2f(sym_align):
           "AAATTCCTAAGTTTACCGGGTTAATCAAAGTACTTTAGGTAACACGTTTAGTCA"), 50),
     ]
 )
-def test_exercise_2f(sym_align, power):
+def test_exercise_2g(sym_align, power):
     actual =pam_calculation(sym_align, power)
     expected = pam_calculation_correct(sym_align, power)
     assert actual == expected
