@@ -5,9 +5,9 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ---
 ## Bioinformatics 1
 ###### WS 2021/2022
-##### Exercise sheet 8: Point Accepted Mutation (PAM)
+##### Exercise sheet 8: Substitution Scoring
 ---
-### _Exercise 1 - PAM_
+### _Exercise 1 - Point Accepted Mutation (PAM)_
 We want to calculate the PAM1 matrix based on the following two sequence alignments of the DNA sequences a, b, c and d.
 
 <p align="center">
@@ -17,7 +17,7 @@ We want to calculate the PAM1 matrix based on the following two sequence alignme
 
 Tip: In order to solve **a)** and **b)** create a combined alignment comprised of two combined sequences a' and b' (based on the two initial alignments and their symetric counterparts)
 <details>
-  <summary>Example: (Spoiler)</summary>
+  <summary>Hint: (Click to open)</summary>
   a' = a + c + b + d
 
   b' = b + d + a + c
@@ -29,7 +29,7 @@ Unless otherwise stated round all results to 4 decimal places.
 
 **a)** Calculate the nucleotide frequencies r<sub>x</sub>.
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-r.svg" alt="r" width=20%/>
   </p>
@@ -39,7 +39,7 @@ Unless otherwise stated round all results to 4 decimal places.
 **b)** Calculate the symmetric mutation probability matrix E(x,y).
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-E.svg" alt="E" width=40%/>
   </p>
@@ -49,7 +49,7 @@ Unless otherwise stated round all results to 4 decimal places.
 **c)** Calculate the non-normalized PAM matrix S with 10*log<sub>10</sub>(odds), using the previously determined r values and E matrix. (round to integers)
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-S.svg" alt="S" width=35%/>
   </p>
@@ -61,7 +61,7 @@ Unless otherwise stated round all results to 4 decimal places.
 **e)** Calculate the normalization factor γ based on E.
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-gamma.svg" alt="Gamma" width=50%/>
   </p>
@@ -71,37 +71,37 @@ Unless otherwise stated round all results to 4 decimal places.
 **f)** Calculate the mutation rate matrix P.
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-P.svg" alt="P" width=15%/>
   </p>
 
 </details>
 
-**g)** Calculate the normalized mutation rate matrix N using P and factor γ.
+**g)** Calculate the normalized mutation rate matrix P' using P and the normalization factor γ.
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-N.svg" alt="N" width=25%/>
   </p>
 
 </details>
 
-**h)** Determine PAM1 based on the normalized mutation rate matrix N with 10*log<sub>10</sub>(odds) (round to integer)
+**h)** Determine PAM1 based on the normalized mutation rate matrix P' with 10*log<sub>10</sub>(odds) (round to integer)
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-PAM1.svg" alt="PAM1" width=25%/>
   </p>
 
 </details>
 
-**i)** Determine PAM2 and PAM250. (round to integer)
+**i)** Determine PAM2. (round to integer)
 
 <details>
-  <summary>Formula: (Spoiler)</summary>
+  <summary>Formula: (Click to open)</summary>
   <p align="center">
     <img src="./figures/sheet8-exercise1-PAMX.svg" alt="PAMX" width=25%/>
   </p>

@@ -1,5 +1,3 @@
-
-
 from typing import runtime_checkable
 
 
@@ -93,16 +91,16 @@ def exercise_1g():
     """
     Exercise 1 g
 
-    Calculate the normalized mutation rate matrix N using P and factor γ.
+    Calculate the normalized mutation rate matrix P' using P and factor γ.
     """
 
-    N = [  #A       #C       #T       #G
+    P_prime = [  #A       #C       #T       #G
         [  0.0000,  0.0000,  0.0000,  0.0000], #A
         [  0.0000,  0.0000,  0.0000,  0.0000], #C
         [  0.0000,  0.0000,  0.0000,  0.0000], #T
         [  0.0000,  0.0000,  0.0000,  0.0000]  #G
     ]
-    return N
+    return P_prime
 
 
 def exercise_1h():
@@ -125,7 +123,7 @@ def exercise_1i():
     """
     Exercise 1 i
 
-    Determine PAM2 and PAM250.
+    Determine PAM2.
     (round to integer)
     """
 
