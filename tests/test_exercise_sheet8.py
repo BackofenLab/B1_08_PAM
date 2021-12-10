@@ -151,7 +151,9 @@ def test_exercise_1i():
 def test_exercise_2a(sym_align):
     actual = nucleotide_freq_calculation(sym_align)
     expected = nucleotide_freq_calculation_correct(sym_align)
-    assert actual == expected
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 
@@ -165,7 +167,9 @@ def test_exercise_2a(sym_align):
 def test_exercise_2b(sym_align):
     actual = mutation_calculation(sym_align=sym_align)
     expected = mutation_calculation_correct(sym_align)
-    assert actual == expected
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 @pytest.mark.parametrize(
@@ -178,6 +182,9 @@ def test_exercise_2b(sym_align):
 def test_exercise_2c(sym_align):
     actual = scores_calculation(sym_align)
     expected = scores_calculation_correct(sym_align)
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 @pytest.mark.parametrize(
@@ -203,7 +210,9 @@ def test_exercise_2d(sym_align):
 def test_exercise_2e(sym_align):
     actual = probabilities_calculation(sym_align)
     expected = probabilities_calculation_correct(sym_align)
-    assert actual == expected
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 @pytest.mark.parametrize(
@@ -216,7 +225,9 @@ def test_exercise_2e(sym_align):
 def test_exercise_2f(sym_align):
     actual = norm_probabilities_calculation(sym_align)
     expected = norm_probabilities_calculation_correct(sym_align)
-    assert actual == expected
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 @pytest.mark.parametrize(
