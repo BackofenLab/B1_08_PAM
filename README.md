@@ -131,6 +131,7 @@ Select the correct answer based on the obtained results.
 ### _Exercise 2 - Programming assignmnet: Substitution Scoring Models_
 
 After manually calculating the PAM matrices in the exercise 1, you are now tasked to implement each of the steps.
+Make use of the formulae introduced before.
 
 **a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the following way:
 
