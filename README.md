@@ -128,7 +128,7 @@ Select the correct answer based on the obtained results.
 
 </details>
 
-### _Exercise 2 - Programming assignmnet: Substitution Scoring Models
+### _Exercise 2 - Programming assignmnet: Substitution Scoring Models_
 
 **a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the followin way:
 
