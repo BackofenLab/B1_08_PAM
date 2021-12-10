@@ -56,18 +56,18 @@ Unless otherwise stated round all results to 4 decimal places.
 
 </details>
 
-**d)** Given two new sequences _a_ = ACC and _b_ = ATT, compute the optimal Needleman-Wunsch alignments using:
+**d)** Given the sequences _a_ = ACC and _b_ = ATT, compute the optimal Needleman-Wunsch alignments using:
 
 1. The general similarity scoring function.
 
 <p align="center">
-    <img src="./figures/sheet8-exercise1-D-general.svg" alt="General" width=50%/>
+    <img src="./figures/sheet8-exercise1-D-general.svg" alt="General" width=100%/>
   </p>
     
 2. The PAM1-based similarity scoring function.
 
 <p align="center">
-    <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=50%/>
+    <img src="./figures/sheet8-exercise1-D-PAM1.svg" alt="PAM1" width=100%/>
   </p>
 
 where _s_<sub>x,y</sub> are entries from the non-normalized PAM matrix S from above.
