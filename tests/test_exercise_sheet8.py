@@ -197,7 +197,9 @@ def test_exercise_2c(sym_align):
 def test_exercise_2d(sym_align):
     actual = gamma_calculation(sym_align)
     expected = gamma_calculation_correct(sym_align)
-    assert actual == expected
+    actual = np.asarray(actual)
+    expected = np.asarray(expected)
+    assert np.allclose(actual, expected)
 
 
 @pytest.mark.parametrize(
