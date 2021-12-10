@@ -36,7 +36,7 @@ Unless otherwise stated round all results to 4 decimal places.
 
 </details>
 
-**b)** Calculate the symmetric mutation probability matrix E(x,y).
+**b)** Calculate the symmetric mutation matrix E(x,y).
 
 <details>
   <summary>Formula: (Click to open)</summary>
@@ -123,28 +123,30 @@ Select the correct answer based on the obtained results.
 <details>
   <summary>Formula: (Click to open)</summary>
   <p align="center">
-    <img src="./figures/sheet8-exercise1-PAMX.svg" alt="PAMX" width=40%/>
+    <img src="./figures/sheet8-exercise1-PAMX.svg" alt="PAMX" width=60%/>
   </p>
 
 </details>
 
 ### _Exercise 2 - Programming assignmnet: Substitution Scoring Models_
 
-**a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the followin way:
+After manually calculating the PAM matrices in the exercise 1, you are now tasked to implement each of the steps.
+
+**a)** Implement the calculation of the nucleotide frequencies for a symmetric alignment. Make sure that the indexing works the following way:
 
 - [0] = A
 - [1] = C
 - [2] = T
 - [3] = G
 
-**b)** Implement the calculation of the mutations. Remember indexing as in the previous exercise.
+**b)** Implement the calculation of the mutation matrix. Remember indexing as in the previous exercise.
 
-**c)** Implement the calculation of the scores. Remember indexing as in the previous exercise.
+**c)** Implement the calculation of the unnormalized PAM scores. Remember indexing as in the previous exercise.
 
-**d)** Implement the calculation of gamma.
+**d)** Implement the calculation of the normalization factor gamma.
 
-**e)** Implement the calculation of probabilities matrix.
+**e)** Implement the calculation of the probability matrix.
 
-**f)** Implement the calculation of normalized probabilities matrix.
+**f)** Implement the calculation of the normalized probability matrix.
 
 **g)** Implement the calculation of the PAM matrix. Make sure to round values to integers.
