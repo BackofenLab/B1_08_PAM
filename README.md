@@ -75,7 +75,7 @@ where _s_<sub>x,y</sub> are entries from the non-normalized PAM matrix S from ab
 Select the correct answer based on the obtained results.
 
 <p align="center">
-    <img src="./figures/sheet8-exercise1-D-result.svg" alt="Results" width=90%/>
+    <img src="./figures/sheet8-exercise1-D-result.svg" alt="Results" width=100%/>
 </p>
     
 **e)** Calculate the normalization factor γ based on E.
