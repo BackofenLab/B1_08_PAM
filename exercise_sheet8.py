@@ -160,6 +160,7 @@ def nucleotide_freq_calculation(sym_align: Tuple[str, str]) -> List[float]:
     [1] = C
     [2] = T
     [3] = G
+    sym align: Tuple of strings representing the symmetric alignment
     """
     first_seq, second_seq = sym_align
     freq_list = []  # Frequencies should be in order A,C,T,G
@@ -227,6 +228,7 @@ def pam_calculation(sym_align: Tuple[str, str], power: int) -> List[List[int]]:
     Implement the calculation of pam matrix Make sure to round values to
     integers. ( Notice that casting to int does not do the correct
     rounding)
+    power: the power of the PAM matrix e.g. PAM1 or PAM250
     Hint: You can use your already implemented functions here
     """
     pam = None
