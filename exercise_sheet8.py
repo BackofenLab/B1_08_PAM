@@ -1,4 +1,4 @@
-from typing import runtime_checkable, Tuple, List
+from typing import Tuple, List
 import numpy as np
 
 
