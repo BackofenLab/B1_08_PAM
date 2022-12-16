@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from exercise_sheet8 import *
-from p_tasks import *
+from helpers import *
 
 """
 a' = AAGTACTTT+AGGTAACACGTTTAGTCA+AAATTCCTA+AGTTTACCGGGTTAATCA
